@@ -11,8 +11,8 @@
 ```  
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
-If (Test-Path "D:\software\program\Miniconda3\Scripts\conda.exe") {
-    (& "D:\software\program\Miniconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+If (Test-Path "<path to conda.exe>") {
+    (& "path to conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
 }
 #endregion
 ```
